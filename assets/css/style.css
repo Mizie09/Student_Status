@@ -1,0 +1,172 @@
+body {
+  background-color: #FFFEFE;
+  margin: 0 0 0 0;
+}
+
+nav{
+  background-color: #005DFF;
+  display: flex;
+  justify-content: right;
+  height: 50px;
+  align-items: center;
+}
+nav li.logo{
+  margin-right:auto;
+}
+nav ul {
+  display: flex;
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style-type:none;
+}
+nav ul li {
+  margin:0 30px;
+}
+nav a{
+  color: #FFFFFF;
+  margin:5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#active{
+  border-bottom:2px solid #18FF06;
+}
+
+div.container{
+  margin: 30px;
+}
+
+
+div.section-box{
+  border-radius: 20px;
+  height: 500px;
+  width: 100%;
+  background-color: #0056FF;
+  display: flex;
+}
+div.adviser-box{
+  color: #FFFFFF;
+  background-color: #0A5DFF;
+  border-radius: 20px 0px 0px 20px;
+  display: block;
+  padding: 10px;
+  
+}
+div.adviser-box h4{
+  text-align: center;
+}
+div.adviser-box img {
+  height: 180px;
+  width: 180px;
+  mar#A2D6FFgin :20px;
+  border-radius: 20px;
+}
+div.info{
+  margin:30px;
+}
+
+div.students-box{
+  height: 100%;
+  width: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F1FFFE
+  
+}
+div.student-info .status{
+  color: #FFFFFF;
+  text-align: center;
+}
+div.student-info img{
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
+  margin:20px;
+  
+}
+
+div.strands{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit,300px);
+}
+div.strand-box{
+  color: #FFFFFF;
+  height: 250px;
+  border-radius: 29px;
+  text-align: center;
+  background-color: #006AFF;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.strand-box img,div.strand-box a{
+  height: 180px;
+  width: 180px;
+  border-radius: 20px;
+}
+
+div.section-employees{
+  border-radius: 20px;
+  height: 35px;
+  width: 100%;
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-evenly;
+}
+div.section-student{
+  border-radius: 20px;
+  height: 500px;
+  width: 100%;
+  background-color: #3E3E3E;
+}
+div.section-employees div{
+  margin-top: 5px;
+  color: #FFFFFF;
+  background-color: #969696;
+  height: 20px;
+  padding: 2px;
+}
+
+
+div.dropdown-menu-strand{
+  width: 150px;
+  display: flex;
+}
+div.dropdown-menu-section {
+  width: 200px;
+  display: flex;
+}
+div.dropdown-menu-sy {
+  width: 150px;
+  display: flex;
+  
+}
+
+div.dropdown-menu-strand select,
+div.dropdown-menu-section select,
+div.dropdown-menu-sy select{
+  width: 100%;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+.student-table {
+  justify-content: center;
+  text-align: center;
+  background-color: #64BAFF;
+  height: 80%;
+  margin: 20px;
+  color: #FFFFFF;
+  
+}
+.student-table table{
+  background-color: #333334;
+  width: 90%;
+}
+.student-table a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
