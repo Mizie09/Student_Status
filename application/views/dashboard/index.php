@@ -16,7 +16,7 @@
 
   <div>
     <nav>
-      <li class="logo"><a href="LOGO">LOGO</a></li>
+      <li class="logo"><a href="LOGO">Student Status</a></li>
       <ul>
         <li><a id="active" href="<?= site_url('Homepage') ?>">Home</a></li>
         <li><a href="<?= site_url('Dashboard') ?>">Dashboard</a></li>
